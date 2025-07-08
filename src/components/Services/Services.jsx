@@ -99,7 +99,8 @@ const Services = () => {
             <img
               src={service.image}
               alt={service.title}
-              className="img-shadow2 w-full max-w-[180px] sm:max-w-[200px] mx-auto hover:scale-110 duration-300 cursor-pointer"
+              className="img-shadow2 w-[140px] sm:w-[180px] md:w-[200px] mx-auto hover:scale-110 duration-300 cursor-pointer"
+
             />
             <div className="space-y-2">
               <h1 className="text-2xl font-bold text-primary">
